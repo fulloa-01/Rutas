@@ -5,13 +5,13 @@ export default function Navigation() {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container className="justify-content-start">
-                    <Navbar.Brand>Happy Cacke</Navbar.Brand>
                     <Link to="/" className="text-white ms-3 text-decoration-none">
-                        Home
+                       🏠 Home
                     </Link>
                     <Link to="/contacto" className="text-white ms-3 text-decoration-none">
-                        Contacto
+                       📒 Contacto
                     </Link>
+                    <Navbar.Brand>🍰 Happy Cacke</Navbar.Brand>
                 </Container>
             </Navbar>
         </>
